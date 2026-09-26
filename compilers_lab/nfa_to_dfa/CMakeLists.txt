@@ -8,6 +8,8 @@ add_library(core
     ./src/nfa.cpp
     ./src/regex.cpp
     ./src/dfa.cpp
+    ./src/dfa_min.cpp
+    ./src/minimize.cpp
 )
 
 enable_testing()
