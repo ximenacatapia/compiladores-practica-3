@@ -1,4 +1,0 @@
-PruebaEpsilon 1 0.166233
-PruebaSubset 1 0.125198
-PruebaMove 1 0.126435
----

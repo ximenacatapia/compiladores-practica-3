@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcore.a CMakeFiles/core.dir/src/nfa.cpp.o CMakeFiles/core.dir/src/regex.cpp.o CMakeFiles/core.dir/src/dfa.cpp.o
-/usr/bin/ranlib libcore.a
