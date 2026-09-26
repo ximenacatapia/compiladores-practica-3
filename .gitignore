@@ -1,0 +1,90 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Práctica 1: regex_to_nfa
+compilers_lab/regex_to_nfa/regex_to_nfa
+*.nfa
+
+# Práctica 2: nfa_to_dfa (binarios y exports sueltos al compilar/probar a mano)
+compilers_lab/nfa_to_dfa/src/nfa
+compilers_lab/nfa_to_dfa/test_subset
+compilers_lab/nfa_to_dfa/**/*.json
+
+# Práctica 3: minimize_dfa
+compilers_lab/minimize_dfa/minimize_dfa
+compilers_lab/minimize_dfa/src/minimize_dfa
