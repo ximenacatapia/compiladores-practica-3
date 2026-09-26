@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-3/compilers_lab/nfa_to_dfa/src",
+      "program": "/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-3/compilers_lab/nfa_to_dfa/src/build/Debug/outDebug"
+    }
+  ]
+}

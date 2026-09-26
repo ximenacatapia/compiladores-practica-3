@@ -1,0 +1,8 @@
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/core.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/regex_to_nfa.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/test_e_closure.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/test_subset.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/test_move.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/test.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/edit_cache.dir
+/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/CMakeFiles/rebuild_cache.dir

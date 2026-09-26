@@ -1,0 +1,96 @@
+Start testing: Sep 17 09:33 CST
+----------------------------------------------------------
+1/3 Testing: PruebaEpsilon
+1/3 Test: PruebaEpsilon
+Command: "/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/test_e_closure"
+Directory: /Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build
+"PruebaEpsilon" start time: Sep 17 09:33 CST
+Output:
+----------------------------------------------------------
+========== VALIDATION ==========
+[OK] test_epsilon_closure_empty
+[OK] test_epsilon_closure_with_no_epsilon_transitions
+[OK] test_epsilon_closure_cycle
+[OK] test_epsilon_closure_loop
+[OK] test_epsilon_closure_multiple_initials
+[OK] est_epsilon_closure_hybrid
+
+Epsilon closure test passed.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"PruebaEpsilon" end time: Sep 17 09:33 CST
+"PruebaEpsilon" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: PruebaSubset
+2/3 Test: PruebaSubset
+Command: "/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/test_subset"
+Directory: /Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build
+"PruebaSubset" start time: Sep 17 09:33 CST
+Output:
+----------------------------------------------------------
+
+Regex: ab|c*
+
+========== NFA ==========
+Start state: 8
+Accept state: 9
+
+0 --a--> 1
+1 --epsilon--> 2
+2 --b--> 3
+3 --epsilon--> 9
+4 --c--> 5
+5 --epsilon--> 4
+5 --epsilon--> 7
+6 --epsilon--> 4
+6 --epsilon--> 7
+7 --epsilon--> 9
+8 --epsilon--> 0
+8 --epsilon--> 6
+
+========== DFA ==========
+Start state: S0
+Accept states: { S0 S2 S3 }
+
+S0 --a--> S1
+S0 --c--> S2
+S1 --b--> S3
+S2 --c--> S2
+
+========== VALIDATION ==========
+[OK] Expected number of DFA states
+[OK] Expected initial state
+[OK] Expected transitions
+[OK] Expected accepting states
+[OK] No epsilon transitions in DFA
+[OK] DFA is deterministic
+
+Subset construction test passed.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"PruebaSubset" end time: Sep 17 09:33 CST
+"PruebaSubset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: PruebaMove
+3/3 Test: PruebaMove
+Command: "/Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build/test_move"
+Directory: /Users/jaimari/Documents/bly/7th_sem/compiladores/compiladores-practica-2/compilers_lab/nfa_to_dfa/build
+"PruebaMove" start time: Sep 17 09:33 CST
+Output:
+----------------------------------------------------------
+test_move OK
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"PruebaMove" end time: Sep 17 09:33 CST
+"PruebaMove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 17 09:33 CST
