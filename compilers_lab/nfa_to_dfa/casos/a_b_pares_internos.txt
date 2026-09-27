@@ -1,0 +1,24 @@
+a(ba)*b
+# Cadenas que inician con a, terminan con b y alternan pares internos.
+# Aceptacion
++ab
++abab
++ababab
++abababab
++ababababab
++abababababab
++ababababababab
++abababababababab
++ababababababababab
++abababababababababab
+# Rechazo
+-
+-a
+-b
+-ba
+-aba
+-bab
+-aabb
+-aababb
+-aabbabab
+-bbababab

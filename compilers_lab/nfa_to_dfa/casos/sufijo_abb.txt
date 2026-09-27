@@ -1,0 +1,24 @@
+(a|b)*abb
+# Cadenas que terminan con el sufijo abb
+# Aceptacion
++abb
++aabbabb
++abbabb
++bbaabb
++aabb
++babb
++abababb
++aaaaabb
++bbbbabb
++babaabb
+# Rechazo
+-
+-a
+-b
+-bb
+-aa
+-ab
+-abba
+-abbb
+-abbabba
+-bbbbabba
